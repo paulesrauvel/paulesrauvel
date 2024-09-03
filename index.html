@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Porfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/4d0641e4df.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="Images/logo.png" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          <i class="fa-solid fa-x" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Graphic Designer</p>
+        <h1>Hi, i'm <span>Paul</span><br>Esrauvel From India</h1>
+      </div>
+    </div>
+  </div>
+
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="Images/image.png">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>As a passionate graphic designer, I specialize in bringing ideas to life through compelling visuals. With a keen eye for detail and a strong understanding of design principles, I transform concepts into engaging designs that resonate with audiences. My expertise spans various mediums, from digital to print, allowing me to deliver versatile solutions tailored to your unique needs.</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Graphic Designer</span><br>Creating Engaging Designs</li>
+              <li><span>Video Editing</span><br>Editing Videos</li>
+              <li><span>Ui Design</span><br>Creating User Interface</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2019-2022</span><br>Graphic Designer at Lemongrass</li>
+              <li><span>2022</span><br>Graphic Designer at Giri Trading Agency</li>
+              <li><span>App Developement</span><br>Graphic Designer Designer at Oriens GLobal Marketing pvt ltd</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2010</span><br>Kalaimagal Matriculation Higher Secondary School</li>
+              <li><span>2012</span><br>Diploma in Haya Polytechnic College</li>
+              <li><span>2019</span><br>C-tech at image Creative Education</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-paintbrush"></i>
+          <h2>Graphic Design</h2>
+          <p>Graphic design is the art and practice of planning and projecting ideas and experiences with visual and textual content. It involves the creation of visual compositions to communicate messages effectively. Designers use typography, imagery, color, and layout to craft visual content that meets specific needs, such as branding, advertising, and digital media.</p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-video"></i>
+          <h2>Video Editing</h2>
+          <p>Video editing is the process of manipulating and rearranging video shots to create a new work. It involves selecting the best footage, trimming segments, adding transitions, effects, and audio, and creating a cohesive final product. Video editing is a crucial part of post-production in filmmaking, television production, and digital media.</p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-user"></i>
+          <h2>UI Design</h2>
+          <p>User Interface (UI) design focuses on the look, feel, and interactivity of a product’s interface. It involves creating the visual components that users interact with, such as buttons, icons, and layouts, to ensure an intuitive and aesthetically pleasing experience. UI design is essential in digital products like websites, mobile apps, software, and even physical devices with digital interfaces.</p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Works</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="Images/studios logo.jpeg">
+          <div class="layer">
+            <h3>Logo Design</h3>
+            <p>Brand Guideliness</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="Images/christmas post.jpeg">
+          <div class="layer">
+            <h3>Posters</h3>
+            <p>Social Media Posts</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="Images/manipulation.jpeg">
+          <div class="layer">
+            <h3>Photo Manipulation</h3>
+            <p>Manipulate Photos using adobe photoshop</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i> paulesrauvel@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i> 8667858819</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=61559594085182"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/dk_studios06?igsh=bG9pNzUwZzZ5bWc0"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://x.com/drunken34869?t=FPThV-4RfbIrwFV5luNTLg&s=09"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/paul-esrauvel-bb5b2b17b/"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+          <a href="CV/my cv.docx" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name='submit-to-google-sheet'>
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>copyright &#169; Paul Esrauvel. Made by DK Studios</p>
+    </div>
+  </div>
+
+  <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab")
+    }
+
+  </script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyWluOAAHxsLnEd-Vug7dw5UXBLmiZVBOV6CnbKHc4-SxJUfCqaHF8Rtv6_8MB0BUKS/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = 'Message Sent Succesfully'
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
